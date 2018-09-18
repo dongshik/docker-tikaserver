@@ -1,5 +1,5 @@
-FROM ubuntu:latest
-MAINTAINER david@logicalspark.com
+FROM ubuntu:16.04
+MAINTAINER dongshik.lee@gmail.com
 
 ENV TIKA_VERSION 1.18
 ENV TIKA_SERVER_URL https://www.apache.org/dist/tika/tika-server-$TIKA_VERSION.jar
